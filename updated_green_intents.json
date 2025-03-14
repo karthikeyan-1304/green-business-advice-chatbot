@@ -1,0 +1,270 @@
+{
+    "intents": [
+        {
+            "tag": "sustainability",
+            "patterns": [
+                "Tell me about sustainability",
+                "Why is sustainability important?",
+                "How can businesses be more sustainable?"
+            ],
+            "responses": [
+                "Sustainability is about balancing environmental, social, and economic factors to ensure long-term well-being.",
+                "Businesses can adopt sustainability by using renewable energy, reducing waste, and adopting circular economy principles."
+            ]
+        },
+        {
+            "tag": "carbon_footprint",
+            "patterns": [
+                "How can I reduce my carbon footprint?",
+                "What is a carbon footprint?",
+                "Why does carbon tracking matter?"
+            ],
+            "responses": [
+                "Your carbon footprint measures the greenhouse gases your activities generate. Reduce it by switching to renewable energy, recycling, and using energy-efficient appliances.",
+                "Tracking carbon emissions helps businesses identify areas for improvement and meet sustainability goals."
+            ]
+        },
+        {
+            "tag": "renewable_energy",
+            "patterns": [
+                "Tell me about renewable energy",
+                "What are the benefits of solar energy?",
+                "Is wind energy better than fossil fuels?"
+            ],
+            "responses": [
+                "Renewable energy comes from natural sources like the sun, wind, and water. It helps reduce carbon emissions and dependence on fossil fuels.",
+                "Solar energy is cost-effective in the long run, while wind energy provides clean power without greenhouse gas emissions."
+            ]
+        },
+        {
+            "tag": "green_certifications",
+            "patterns": [
+                "What are green certifications?",
+                "How can my business get certified for sustainability?",
+                "Tell me about ISO 14001 and LEED certifications."
+            ],
+            "responses": [
+                "Green certifications, like ISO 14001 and LEED, verify a business\u2019s commitment to sustainability. They enhance credibility and attract eco-conscious customers.",
+                "ISO 14001 focuses on environmental management, while LEED certifies green buildings."
+            ]
+        },
+        {
+            "tag": "green_assessment",
+            "patterns": [
+                "I want to assess my business",
+                "Can you evaluate my company's sustainability?",
+                "Start my business assessment"
+            ],
+            "responses": [
+                "Let's start your green business assessment! I'll ask you some questions to evaluate your sustainability efforts.",
+                "Sure! I'll assess factors like energy use, waste management, and sustainability initiatives."
+            ]
+        },
+        {
+            "tag": "report_generation",
+            "patterns": [
+                "Can I get a sustainability report?",
+                "Generate my business report",
+                "Show my environmental impact report"
+            ],
+            "responses": [
+                "Generating your sustainability report now. This will include your assessment score and recommendations for improvement.",
+                "Here\u2019s your detailed sustainability report, showing your progress and areas to improve."
+            ]
+        },
+        {
+            "tag": "waste_management",
+            "patterns": [
+                "How can businesses manage waste effectively?",
+                "What are the best recycling practices?",
+                "Why is waste reduction important?"
+            ],
+            "responses": [
+                "Businesses can implement waste management by recycling materials, reducing single-use plastics, and composting organic waste.",
+                "Reducing waste helps conserve natural resources and minimizes environmental impact."
+            ]
+        },
+        {
+            "tag": "circular_economy",
+            "patterns": [
+                "What is a circular economy?",
+                "How can businesses adopt circular economy practices?",
+                "Why is circular economy important?"
+            ],
+            "responses": [
+                "A circular economy minimizes waste by reusing, refurbishing, and recycling materials.",
+                "Businesses can adopt circular economy principles by designing recyclable products and using sustainable supply chains."
+            ]
+        },
+        {
+            "tag": "government_policies",
+            "patterns": [
+                "What are government policies on sustainability?",
+                "What environmental regulations do businesses need to follow?",
+                "Are there tax benefits for eco-friendly businesses?"
+            ],
+            "responses": [
+                "Many governments have sustainability regulations requiring businesses to track emissions, improve energy efficiency, and reduce waste.",
+                "Governments offer tax benefits and subsidies to businesses that adopt sustainable practices, such as using renewable energy or reducing emissions."
+            ]
+        },
+        {
+            "tag": "tax_incentives",
+            "patterns": [
+                "Are there tax benefits for sustainable businesses?",
+                "How can my company get green tax credits?",
+                "Do governments support eco-friendly companies with tax cuts?"
+            ],
+            "responses": [
+                "Many governments offer tax credits and deductions for businesses that adopt sustainable practices, such as energy efficiency upgrades and solar power installation.",
+                "You may qualify for incentives like accelerated depreciation on green assets, reduced property taxes, or energy efficiency rebates."
+            ]
+        },
+        {
+            "tag": "ai_sustainability",
+            "patterns": [
+                "How can AI help with sustainability?",
+                "What are AI solutions for green businesses?",
+                "Can AI help reduce carbon emissions?"
+            ],
+            "responses": [
+                "AI can optimize energy use, improve supply chain efficiency, and predict environmental risks to support sustainability goals.",
+                "Businesses use AI to track carbon emissions, reduce waste, and enhance renewable energy integration."
+            ]
+        },
+        {
+            "tag": "iot_sustainability",
+            "patterns": [
+                "How does IoT improve sustainability?",
+                "What are IoT solutions for energy efficiency?",
+                "Can IoT help reduce waste?"
+            ],
+            "responses": [
+                "IoT devices help businesses monitor energy consumption, automate resource usage, and optimize supply chains.",
+                "Smart sensors and IoT systems improve water conservation, energy efficiency, and waste reduction."
+            ]
+        },
+        {
+            "tag": "sustainable_products",
+            "patterns": [
+                "What are sustainable products?",
+                "How do I identify eco-friendly products?",
+                "Are biodegradable products better?"
+            ],
+            "responses": [
+                "Sustainable products are made from eco-friendly materials, have low carbon footprints, and are designed to be reused or recycled.",
+                "Look for certifications like FSC (for wood products), Fair Trade, and USDA Organic to identify sustainable products."
+            ]
+        },
+        {
+            "tag": "consumer_sustainability",
+            "patterns": [
+                "How can consumers be more sustainable?",
+                "What are eco-friendly shopping habits?",
+                "How can I reduce my environmental impact as a consumer?"
+            ],
+            "responses": [
+                "Consumers can be more sustainable by choosing reusable products, reducing single-use plastics, and supporting brands with green certifications.",
+                "Eco-friendly shopping involves buying locally, choosing sustainable packaging, and minimizing waste."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Whats up",
+                "How are you"
+            ],
+            "responses": [
+                "Hi there",
+                "Hello",
+                "Hey",
+                "Nothing much",
+                "I'm fine, thank you"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye",
+                "See you later",
+                "Take care"
+            ]
+        },
+        {
+            "tag": "eco_tips",
+            "patterns": [
+                "How can I reduce my carbon footprint?",
+                "Give me eco-friendly tips",
+                "Ways to save energy"
+            ],
+            "responses": [
+                "You can reduce your carbon footprint by using renewable energy, recycling, and reducing waste.",
+                "Try using energy-efficient appliances and switching to public transportation."
+            ]
+        },
+        {
+            "tag": "green_certifications",
+            "patterns": [
+                "What are green certifications?",
+                "Tell me about ISO 14001"
+            ],
+            "responses": [
+                "Green certifications include ISO 14001 for environmental management and LEED for sustainable buildings.",
+                "ISO 14001 is an international standard for environmental management systems."
+            ]
+        },
+        {
+            "tag": "leed_certification",
+            "patterns": [
+                "What is LEED certification?",
+                "Tell me about LEED certification",
+                "Explain LEED certification"
+            ],
+            "responses": [
+                "LEED (Leadership in Energy and Environmental Design) is a globally recognized green building certification system developed by the U.S. Green Building Council. It provides a framework for designing, constructing, and operating high-performance, sustainable buildings. For more information, visit https://www.usgbc.org/leed"
+            ]
+        },
+        {
+            "tag": "business_assessment",
+            "patterns": [
+                "I want to assess my business",
+                "Start sustainability assessment"
+            ],
+            "responses": [
+                "Let's start your business sustainability assessment. Please answer the following questions:",
+                "1. What is the name of your business?",
+                "2. What industry does your business operate in?",
+                "3. How many employees work in your company?",
+                "4. What is your primary source of energy? (Renewable, Fossil fuels, Mixed)",
+                "5. Do you use a waste recycling system? (Yes/No)",
+                "6. What percentage of your waste is recycled? (e.g., 20, 50, 80)",
+                "7. Do you implement water conservation measures? (Yes/No)",
+                "8. What water-saving technologies or policies do you use?",
+                "9. Do you track your carbon emissions? (Yes/No)",
+                "10. How do you measure and offset your carbon footprint?",
+                "11. Do you hold any green certifications? (Yes/No)",
+                "12. Are you working towards any sustainability goals? (e.g., Net Zero, Carbon Neutral)"
+            ]
+        },
+        {
+            "tag": "report_generation",
+            "patterns": [
+                "Can I get a sustainability report?",
+                "Generate my progress report"
+            ],
+            "responses": [
+                "Yes, you can generate a detailed sustainability report showing your improvements over time.",
+                "Our system provides monthly/quarterly sustainability reports based on your actions."
+            ]
+        }
+    ]
+}
