@@ -15,7 +15,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
 
-# ✅ Load intents file
+
 file_path = "updated_green_intents.json"
 try:
     with open(file_path, "r", encoding="utf-8") as file:
@@ -28,7 +28,7 @@ except Exception as e:
     st.error(f"Error loading JSON file: {e}")
     intents = []
 
-# ✅ Preprocess training data
+
 patterns, responses, tags = [], [], []
 for intent in intents:
     for pattern in intent["patterns"]:
@@ -36,14 +36,14 @@ for intent in intents:
         responses.append(random.choice(intent["responses"]))
         tags.append(intent["tag"])
 
-# ✅ Train TF-IDF Model
+
 vectorizer = TfidfVectorizer()
 if patterns:
     x_train = vectorizer.fit_transform(patterns)
 else:
     st.error("No patterns found in intents. Check your JSON file.")
 
-# ✅ Function to log chat history in CSV format (but NOT display it)
+
 def log_chat(user_input, bot_response):
     log_file = "chat_log.csv"
     log_entry = {
@@ -61,7 +61,7 @@ def log_chat(user_input, bot_response):
 
     df.to_csv(log_file, index=False)
 
-# ✅ Chatbot response function using Cosine Similarity
+
 def chatbot(input_text):
     if not patterns:
         return "I am currently unavailable due to a system error."
@@ -72,13 +72,13 @@ def chatbot(input_text):
     best_match_index = np.argmax(similarity_scores)
     confidence = similarity_scores[best_match_index]
 
-    # ✅ Confidence threshold (ignores irrelevant inputs)
+  
     if confidence < 0.3:
         return "I'm sorry, I don't understand. Can you rephrase?"
 
     return responses[best_match_index]
 
-# ✅ Streamlit Chatbot UI (No Chat Log Display)
+
 def main():
     st.title("🌱 Green Business Consultant Chatbot")
 
@@ -135,7 +135,7 @@ def main():
         - Provide insights based on the assessment score.
         """)
 
-# ✅ Green Business Assessment
+
 def run_assessment():
     responses = {}
 
@@ -170,7 +170,7 @@ def run_assessment():
         st.success(f"Assessment Complete! Your sustainability score is **{score}**.")
         st.info(f"Your business is categorized as: **{category}**.")
 
-# ✅ Score Calculation Function
+
 def calculate_score(responses):
     score = 0
     if responses.get("energy_source", "").lower() == "renewable":
@@ -185,7 +185,7 @@ def calculate_score(responses):
         score += 20
     return score
 
-# ✅ Business Categorization Function
+
 def categorize_business(score):
     if score >= 50:
         return "Sustainable Business"
