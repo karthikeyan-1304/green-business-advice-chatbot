@@ -234,6 +234,21 @@
             ]
         },
         {
+  "tag": "assessment_request",
+  "patterns": [
+    "I want to assess my business",
+    "Start assessment",
+    "Can I take the assessment?",
+    "Begin business evaluation",
+    "Evaluate my business",
+    "Green business assessment"
+  ],
+  "responses": [
+    "Sure! Let’s start your Green Business Assessment."
+  ]
+},
+
+        {
             "tag": "business_assessment",
             "patterns": [
                 "I want to assess my business",
